@@ -1,7 +1,7 @@
 # spring-boot-demo
 ###Spring Boot Rest Data-jpa Netty etc 
 
-After building and running spring-boot-demo with mvn spring-boot:run
+After building and running spring-boot-demo with</p> *mvn spring-boot:run*
 you can try:</p>
 1. telnet localhost 7000</p>
 type</p>
