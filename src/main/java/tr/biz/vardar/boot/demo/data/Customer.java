@@ -35,6 +35,13 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
+	public Customer(String customerName) {
+		customerName = customerName.trim();
+		String[] customerNameStrings = customerName.split(" ");
+		this.firstName = customerNameStrings[0];
+		this.lastName = customerNameStrings[1];
+	}
+
 	/**
 	 * @return the id
 	 */
