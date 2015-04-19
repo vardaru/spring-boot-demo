@@ -1,5 +1,5 @@
 # spring-boot-demo
-###Spring Boot Rest, Data-JPA, Camel, with Netty, bean and File endpoints.
+###Spring Boot Rest, Data-JPA, Camel, with Netty, bean, Mail and File endpoints.
 
 After building and running spring-boot-demo with</p> *mvn spring-boot:run*
 you can try:</p>
@@ -12,5 +12,6 @@ you should see</p> Hello *test* . Greetings from Netty server an the screen and 
 4. http://localhost:8080/api/msg</p>
 5. http://localhost:8080/api/beans (which is provided by actuator starter)</p>
 6. http://localhost:8080/api/metrics (again by actuator)</p>
-...
+
+A new end point added to listen a given mail address, of which host,username and password are given in mail.properties file. 
 
